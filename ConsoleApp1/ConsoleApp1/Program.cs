@@ -7,9 +7,9 @@ Console.WriteLine(max(arr));
 static double calculateAvg(int[] arr)
 {
     int sum = 0;
-    foreach (var num in arr)
+    foreach (var i in arr)
     {
-        sum += num;
+        sum += i;
     }
 
     return (double)sum / arr.Length;
